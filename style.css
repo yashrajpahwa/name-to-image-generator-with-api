@@ -1,0 +1,90 @@
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Passion One', cursive;
+}
+
+body {
+  background-color: #00a035 !important;
+  padding: 30px;
+}
+
+section h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  text-emphasis: none;
+  color: rgb(245, 238, 238);
+  text-shadow: 4px 3px 12px rgba(68, 62, 62, 0.5);
+  text-align: center;
+}
+
+.centerDiv {
+  background-color: #204aa5;
+  display: flex;
+  border: 3px solid #f1e8e8;
+  margin: 70px 25%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.imgdiv {
+  margin: 20px 0;
+}
+
+.details {
+  text-align: center;
+  color: #ffffff;
+  text-shadow:
+    4px 3px 12px rgba(68, 62, 62, 0.5);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.details label {
+  font-size: 20px;
+}
+
+.details input {
+  font-size: 16px;
+
+}
+
+.btn {
+  font-family: 'Fira Code';
+  letter-spacing: 2px;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+}
+
+/* On under 1000px screens this css will be applied */
+@media (max-width: 1000px) {
+  .centerDiv {
+    margin: 30px 05%;
+  }
+
+  section h1 {
+    font-size: 2.9rem;
+    font-weight: 500;
+    text-emphasis: none;
+    color: rgb(245, 238, 238);
+    text-shadow: 4px 3px 12px rgba(68, 62, 62, 0.5);
+    text-align: center;
+  }
+}
+
+/* On under 768px screens this css will be applied */
+@media (max-width: 768px) {
+  section h1 {
+    font-size: 2.4rem;
+  }
+}
+
+/* On under 546px screens this css will be applied */
+@media (max-width: 546px) {
+  section h1 {
+    font-size: 1.6rem;
+  }
+}
